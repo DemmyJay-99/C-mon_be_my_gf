@@ -40,20 +40,20 @@ no.addEventListener('click', ()=>{
             yes.style.height = "100px"
             message.textContent = "Ouch...";
             break;
+        // case 4:
+        //     no.style.opacity = ".3";
+        //     yes.style.width = "240px";
+        //     yes.style.height = "160px";
+        //     message.textContent = "";
+        //     break;
+        // case 5:
+        //     no.style.opacity = ".1";
+        //     yes.style.width = "280px";
+        //     yes.style.height = "180px";
+        //     yes.style.fontSize = "50px";
+        //     message.textContent = "System ERROR... Acceptance is mandatory";
+        //     break;
         case 4:
-            no.style.opacity = ".3";
-            yes.style.width = "240px";
-            yes.style.height = "160px";
-            message.textContent = "";
-            break;
-        case 5:
-            no.style.opacity = ".1";
-            yes.style.width = "280px";
-            yes.style.height = "180px";
-            yes.style.fontSize = "50px";
-            message.textContent = "System ERROR... Acceptance is mandatory";
-            break;
-        case 6:
             no.style.opacity = "0";
             no.style.display = "none"; 
             message.textContent = "Ya got no choice now bud hehe";   

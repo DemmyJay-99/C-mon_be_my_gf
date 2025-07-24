@@ -1,0 +1,70 @@
+:root{
+    --primary: rgb(186, 41, 41);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary);
+}
+
+center{
+    margin-top: 30px;
+}
+
+h2{
+    color: #fff;
+}
+
+p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.message{
+    font-size: 2.3rem;
+}
+
+.wrapper{
+    height: 80vh;
+    display: flex;
+    place-items: center;
+    place-content: center;
+    display:flex;
+    gap: 10px;
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.yes{
+    background-color: rgb(17, 190, 17);
+    color: white;
+    transition: all .2s;
+}
+
+.yes:hover{
+    box-shadow: 3px 3px 14px 2px yellow;
+}
+
+.no{
+    background-color: red;
+    color: white;
+    transition: all .2s;
+}
+
+.no:hover{
+    box-shadow: 3px 3px 14px 2px rgb(255,0,0);
+}

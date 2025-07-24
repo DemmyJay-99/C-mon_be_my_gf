@@ -9,7 +9,7 @@ yes.addEventListener('click', ()=>{
     message.textContent = "Yayy";
     no.style.display = "none";
     head.style.display = "none";
-    wrapper.style.background = "url(colorful-love-hearts-wallpaper-free-image.webp)"
+    wrapper.style.background = "url(assets/colorful-love-hearts-wallpaper-free-image.webp)"
 }
 );
 
